@@ -11,6 +11,7 @@ cotacoes = requests.get("https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL
 cotacoes = cotacoes.json()
 
 cotacao_euro = cotacoes['EURBRL']['bid']
+
 print(cotacao_euro)
 
 #OBS: projeto criado no dia 30/08/2023
